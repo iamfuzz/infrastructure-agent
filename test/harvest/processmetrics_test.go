@@ -21,7 +21,7 @@ import (
 	"github.com/newrelic/infrastructure-agent/pkg/config"
 	"github.com/newrelic/infrastructure-agent/pkg/metrics"
 	"github.com/newrelic/infrastructure-agent/pkg/metrics/process"
-	"github.com/newrelic/infrastructure-agent/pkg/metrics/sender"
+	"github.com/newrelic/infrastructure-agent/pkg/metrics/sampler"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
