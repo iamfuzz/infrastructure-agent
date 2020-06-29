@@ -1,0 +1,5 @@
+newrelic-infra (1.11.45-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Brian Thomason <bthomason@newrelic.com>  Thu, 25 Jun 2020 19:08:13 +0000

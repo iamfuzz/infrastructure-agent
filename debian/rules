@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	make compile
+	export LDFLAGS="" && make dist
+
+override_dh_auto_test:
+	echo "Skipping unit tests..."

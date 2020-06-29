@@ -1,0 +1,3 @@
+./build/package/systemd/newrelic-infra.service lib/systemd/system
+./external_content/examples/logging/linux/*.example etc/newrelic-infra/logging.d 
+target/bin/linux_amd64/* usr/bin

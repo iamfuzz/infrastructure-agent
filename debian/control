@@ -1,0 +1,15 @@
+Source: newrelic-infra
+Section: admin
+Priority: optional
+Maintainer: Brian Thomason <bthomason@newrelic.com>
+Build-Depends: debhelper-compat (= 12), golang
+Standards-Version: 4.4.1
+Homepage: https://newrelic.com/products/infrastructure
+Vcs-Git: https://github.com/newrelic/infrastructure-agent.git
+
+Package: newrelic-infra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: New Relic Infrastructure agent
+ New relic Infrastructure agent used to push host dta to New Relic's Telemetry
+ Data Platform (TDP)
